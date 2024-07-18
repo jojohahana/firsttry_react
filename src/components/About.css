@@ -1,0 +1,17 @@
+/* src/components/About.css */
+.about {
+    padding: 20px;
+    text-align: center;
+    color: black; /* Change this to your desired font color */
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
