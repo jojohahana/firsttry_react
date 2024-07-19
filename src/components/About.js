@@ -6,7 +6,7 @@ const About = () => {
   const aboutRef = useRef(null);
 
   useEffect(() => {
-    gsap.from(aboutRef.current, { opacity: 0, x: -50, duration: 1 });
+    gsap.from(aboutRef.current, { opacity: 70, x: -50, duration: 20 });
   }, []);
 
   return (

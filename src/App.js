@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { gsap } from 'gsap';
 
 function App() {
   const [cursorX, setCursorX] = useState(0);
@@ -60,6 +60,7 @@ function App() {
       ></div>
       <div id="cursor-border"></div>
 
+      <Header />
       <About />
       <Projects />
       <Contact />
